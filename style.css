@@ -1,0 +1,169 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: calc(80% - 100px);
+  padding: 0 50px;
+  background: #0099ff;
+  z-index: 100;
+}
+
+nav .navlink {
+  text-decoration: none;
+  font-size: 45px;
+  color: #ff33cc;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.container {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+  padding: 0;
+  padding-bottom: 80px;
+}
+
+
+
+.ugrik {
+  height: 100px;
+}
+
+
+
+.kepek-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: auto;  
+  height: 300px;
+  margin: 50px;
+}
+
+img:hover{
+  height: 400px;
+  margin: 0;
+}
+
+
+
+
+.form-box{
+  display: block;
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+input {
+  display: block;
+  border: 2px lime solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+ label {
+  display: block; 
+  text-transform: uppercase;
+  margin: 20px 10px 10px 0px;
+}
+
+button {
+  text-transform: uppercase;
+  background: lime;
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 20px;
+}
+
+
+
+
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  height: auto;
+}
+
+.main {
+  display: flex;
+  background: #ffd62a;
+  width: 400px;
+  height: 150px;
+  list-style-type: none;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+.igazit1 {
+  align-items: center;
+}
+
+.igazit2 {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.igazit2 .item {
+  margin: 0;
+}
+
+.igazit3 {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.igazit3 .item {
+  margin: 0 0 0 5px;
+}
+
+.item {
+  background: #b02afe;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px 0 0;
+}
+
+
+
+
+.helyek {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+a {
+  display: block;
+  margin: 10px;
+  font-family: 'Sen', sans-serif;
+  font-size: 40px;
+  color: #E92BC3;
+}
+
+a:hover {
+  color: lime;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+}
